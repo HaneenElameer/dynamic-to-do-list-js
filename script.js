@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded',function(){
             taskInput.value='';
             const deleteBtn = document.createElement('button')
             deleteBtn.textContent = 'Remove'
-            deleteBtn.className = 'remove-btn'
+            deleteBtn.classList.add = 'remove-btn'
             newTask.appendChild(deleteBtn)
             deleteBtn.addEventListener('click',function(){
                 taskList.removeChild(newTask)
